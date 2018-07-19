@@ -105,8 +105,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 .idea
-cifar-100-python.tar.gz
-data/#
-
-#data/
-data/
+CIFAR-10/data
+3_fitting.py
+4_classify.py
