@@ -15,3 +15,5 @@ import matplotlib.pyplot as plt
 # plt.show()
 
 # plt.scatter
+
+plt.figure()
