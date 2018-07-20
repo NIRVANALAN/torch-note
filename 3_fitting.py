@@ -7,7 +7,7 @@ import time
 
 t1 = time.time()
 device = torch.device('cuda')
-x = torch.unsqueeze(torch.linspace(-1, 1, 100), dim=1).cuda()  ##
+x = torch.unsqueeze(torch.linspace(-1, 1, 100), dim=1).cuda()  # transfer to [100,1]
 y = x.pow(2) + 0.2 * torch.rand(x.size()).cuda()
 x, y = Variable(x), Variable(y)
 plt.scatter(x.data.cpu().numpy(), y.data.cpu().numpy())
