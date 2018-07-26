@@ -16,4 +16,7 @@ import matplotlib.pyplot as plt
 
 # plt.scatter
 
-plt.figure()
+x = np.arange(1e-2, 1,0.01)
+y = x * np.log(1 / x)
+plt.plot(x, y)
+plt.show()

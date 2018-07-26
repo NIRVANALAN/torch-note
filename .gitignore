@@ -107,4 +107,5 @@ venv.bak/
 .idea
 CIFAR-10/data
 minist_model.pkl
-mnist/
+gans/mnist
+gans/img
