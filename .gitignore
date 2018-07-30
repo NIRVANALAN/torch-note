@@ -111,3 +111,5 @@ img/
 mnist
 /gans/discriminator.pth
 /gans/generator.pth
+/gans/test.py
+/gans/dc_img
