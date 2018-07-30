@@ -109,3 +109,5 @@ CIFAR-10/data
 minist_model.pkl
 img/
 mnist
+/gans/discriminator.pth
+/gans/generator.pth
